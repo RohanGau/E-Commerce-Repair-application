@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminUserProductActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Relative1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Products"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Products_list"
+        android:layout_below="@+id/Relative1"
+
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+  android:background="@drawable/background">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/sportlogo"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:id="@+id/user_name_text"
+                android:textColor="#fff"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:hint="Enter mail"
+                android:textColorHint="#FFFF"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/ic_person2"
+                android:layout_marginTop="7dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:id="@+id/user_name_password"
+                android:textColor="#fff"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:hint="Enter password"
+                android:textColorHint="#FFFF"
+                android:maxLines="1"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Remember me "
+                android:textSize="16dp"
+                android:padding="8dp"
+                android:buttonTint="	#000000"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <Button
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/backgroundbutton"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="Log In"
+                android:onClick="userlogin"
+                android:textAllCaps="false"
+                android:textColor="#f16f7d"
+                android:textSize="18dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroundsignup"
+                android:text="Sign Up"
+                android:onClick="usersignup"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:padding="16dp"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forget your password ?"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:textColor="#ffff"
+                android:padding="10dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:layout_marginTop="1dp"
+                />
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/google_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                />
+
+
+        </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+       />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RepairActivity2">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/app_bar"
+        android:background="@color/colorPrimary"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repair Request"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/app_bar"
+        android:textSize="20sp"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+
+        android:textColor="#000000"
+        android:text="Multiple File Upload"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/main_heading"/>
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/select_btn"
+        app:srcCompat="@drawable/upload_btn"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/main_heading"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/user_product_name"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/select_btn"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:hint="product name..."
+        android:background="@drawable/rectangle"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/user_product_description"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/user_product_name"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:hint="product description..."
+        android:background="@drawable/rectangle"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/upload_list"
+        android:layout_below="@+id/user_product_description"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upload_list"
+        android:text="Request To Repair"
+        android:onClick="requestbutton"
+        android:id="@+id/add_request_product"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="17dp"
+        android:textSize="15sp"
+        android:background="@drawable/backgroundsignup"/>
+
+</RelativeLayout>

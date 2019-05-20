@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity"
+    android:id="@+id/rootview">
+
+    <RelativeLayout
+        android:id="@+id/r111"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        >
+        <TextView
+            android:id="@+id/totalpice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            />
+
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/txtmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:text="Congratulation,Your Final Order Has Been Placed Successfully.Soon Tt Will Be Verified."
+        android:textSize="20dp"
+        android:visibility="gone"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cart_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/r111"
+        android:layout_above="@+id/next_process_btn"
+
+
+        >
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/next_process_btn"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

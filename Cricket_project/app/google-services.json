@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "396093688464",
+    "firebase_url": "https://cricketproject.firebaseio.com",
+    "project_id": "cricketproject",
+    "storage_bucket": "cricketproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396093688464:android:e0ddd4a882a908d6",
+        "android_client_info": {
+          "package_name": "com.kalamcantre.cricket_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396093688464-14t1cgjj1b20p1po73d4c6320cn96fci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kalamcantre.cricket_project",
+            "certificate_hash": "a6f0f44d9ba53252a091c755dc457f1b78113136"
+          }
+        },
+        {
+          "client_id": "396093688464-kivaqrtto4bbvti1nfaaseki7007krih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kalamcantre.cricket_project",
+            "certificate_hash": "f4a15fb74460fa57f21b27a3da47cba15298b276"
+          }
+        },
+        {
+          "client_id": "396093688464-sdh7me5flp269jep5gfj4ifu8hu8esml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkjo5ATZZrjg2X0RUccfjCkB2ahu0vOp4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396093688464-sdh7me5flp269jep5gfj4ifu8hu8esml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Cricket_project</string>
+    <string name="facebook_app_id">792029511161235</string>
+    <string name="fb_login_protocol_scheme">fb792029511161235</string>
+    <string name="user_name">Thomas</string>
+    <string name="user_password">Thomas@123</string>
+    <string name="login_preference">com.kalamcantre.cricket_project_login_preference</string>
+    <string name="login_status_preference">com.kalamcantre.cricket_project_login_status_preference</string>
+
+
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_checkbox">please agree with term and conditions</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_password_doesnot_match">password does not match</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_repair">RepairActivity</string>
+
+</resources>
